@@ -13,9 +13,18 @@ _{| Example number  | return      |
   | ------------- |:-------------:|
   |2              | 2             |
   |3              | Ping!         |   
-  | 5             | Pong!         |
+  |5              | Pong!         |
   |15             | Ping-Pong!    |
 
+-take user input and save it
+-use function return user entry
+-print to screen user entry
+-create a for loop to stop at user entry
+-print to screen all iterations of loop
+-check for divisibility by 15, if true change to ping-pong
+-check for divisibility by 5, if true change to pong
+-check for divisibility by 3, if true change to ping
+-remove previous output when resubmitted
 }_
 
 

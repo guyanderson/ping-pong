@@ -12,7 +12,7 @@ function getInput(input){
         j = i
     }
       $("ul").append("<li>"+j+"</li>");
-  }
+  };
 };
 
 
