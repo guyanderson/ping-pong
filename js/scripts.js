@@ -1,9 +1,13 @@
 var array = [];
 function getInput(input){
   for(var i = 1; i <= input; i++) {
+    if(i % 15 === 0) {
+      i = "Ping-Pong!"
+    }
     array.push(i)
+
   }
- return(array);
+  return array;
 };
 
 
