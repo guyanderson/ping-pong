@@ -1,5 +1,5 @@
 
-function getInput(input){
+function runUserInput(input){
   $("ul").empty();
   for(var i = 1; i <= input; i++) {
     if (i % 15 === 0) {
@@ -20,6 +20,6 @@ $(document).ready(function(){
   $("form#userInput").submit(function(event) {
   event.preventDefault();
   var userNumber = parseInt($("#userNumberInput").val());
-  var result = getInput(userNumber);
+  var result = runUserInput(userNumber);
   });
 });
