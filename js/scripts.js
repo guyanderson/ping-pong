@@ -11,8 +11,8 @@ $(document).ready(function(){
 
   var userNumber = parseInt($("#userNumberInput").val());
   var result = getInput(userNumber);
-  // $("ul").append("<li>"+userNumber+"</li>");
-  alert(result);
+  $("ul").append("<li>"+result+"</li>");
+  // alert(result);
 
   });
 });
