@@ -19,5 +19,6 @@ $(document).ready(function(){
   event.preventDefault();
   var userNumber = parseInt($("#userNumberInput").val());
   var result = getInput(userNumber);
+  array = [];
   });
 });
