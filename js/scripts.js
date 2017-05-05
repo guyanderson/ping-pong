@@ -2,9 +2,18 @@ var array = [];
 function getInput(input){
   for(var i = 1; i <= input; i++) {
     if(i % 15 === 0) {
-      i = "Ping-Pong!"
+      j = "Ping-Pong!"
     }
-    array.push(i)
+      else if(i % 5 === 0) {
+        j = "Pong!"
+      }
+      else if(i % 3 === 0) {
+        j = "Ping!"
+      }
+      else {
+        j = i
+      }
+    array.push(j)
 
   }
   return array;
