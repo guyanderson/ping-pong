@@ -1,4 +1,6 @@
+
 function getInput(input){
+  $("ul").empty();
   for(var i = 1; i <= input; i++) {
     if (i % 15 === 0) {
       j = "Ping-Pong!"
@@ -19,6 +21,5 @@ $(document).ready(function(){
   event.preventDefault();
   var userNumber = parseInt($("#userNumberInput").val());
   var result = getInput(userNumber);
-  array = [];
   });
 });

@@ -3,4 +3,20 @@
 }
 .jumbotron h1 {
     text-align: center;
+    color: black;
   }
+h2 {
+  color: #00b3b4;
+}
+h3 {
+  color: #00b3b4;
+}
+p {
+  color: #00b3b4;
+}
+li {
+  color: #00b3b4;
+}
+label {
+  color: #00b3b4;
+}
