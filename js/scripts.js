@@ -3,6 +3,7 @@ $(document).ready(function(){
   event.preventDefault();
 
   var userNumber = parseInt($("#userNumberInput").val());
+  $("ul").append("<li>"+userNumber+"</li>");
   // alert(userNumber);
 
   });
