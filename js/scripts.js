@@ -13,6 +13,7 @@ function getInput(input){
       else {
         j = i
       }
+      $("ul").append("<li>"+j+"</li>");
     array.push(j)
 
   }
@@ -28,8 +29,8 @@ $(document).ready(function(){
 
   var userNumber = parseInt($("#userNumberInput").val());
   var result = getInput(userNumber);
-  $("ul").append("<li>"+result+"</li>");
-  // alert(result);
+  $("ul").append("<li>"+result+"<br/></li>");
+
 
   });
 });
