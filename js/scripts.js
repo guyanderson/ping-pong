@@ -1,5 +1,9 @@
+var array = [];
 function getInput(input){
-return(input);
+  for(var i = 1; i <= input; i++) {
+    array.push(i)
+  }
+ return(array);
 };
 
 
