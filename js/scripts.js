@@ -11,8 +11,9 @@ var pongArray = [];
     } else {
         j = i
     }
-      $("ul").append("<li>"+j+"</li>");
+      pongArray.push(j);
   };
+  return pongArray
 };
 
 
