@@ -1,6 +1,6 @@
 
 function runUserInput(input){
-  $("ul").empty();
+var pongArray = [];
   for(var i = 1; i <= input; i++) {
     if (i % 15 === 0) {
       j = "Ping-Pong!"
