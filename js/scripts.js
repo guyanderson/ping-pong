@@ -13,19 +13,19 @@ function runUserInput(input){
       pongArray.push(j);
   };
   return pongArray;
-
 };
 
 var pongArray = [];
 
 $(document).ready(function(){
   $("form#userInput").submit(function(event) {
-  event.preventDefault();
-  var userNumber = parseInt($("#userNumberInput").val());
-  var result = runUserInput(userNumber);
-  $("ul").empty();
-  for(var i = 0; i < pongArray.length; i++) {
-    $("ul").append("<li>"+pongArray[i]+"</li>");
-  }
+    event.preventDefault();
+    pongArray = [];
+    var userNumber = parseInt($("#userNumberInput").val());
+    var result = runUserInput(userNumber);
+    $("ul").empty();
+    for(var i = 0; i < pongArray.length; i++) {
+      $("ul").append("<li>"+pongArray[i]+"</li>");
+    }
   });
 });
