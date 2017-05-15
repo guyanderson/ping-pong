@@ -1,15 +1,15 @@
-# _{Ping-Pong}_
+# Ping-Pong
 
-#### _{5/5/17}_
+#### 5/5/17
 
-#### By _**{Guy Anderson}**_
+#### By _**Guy Anderson**_
 
 ## Description
 
-_{The homepage will request a number from the user. The program will return to the page, a bullet point list of numbers starting from 1 to the number indicated by the user. For every multiple of 3 in that list, "Ping" will be displayed instead of the number. If the number is a multiple of 5, "Pong" will be displayed. If the number is a multiple of both 3 and 5, "Ping-Pong" will be displayed.}_
+The homepage will request a number from the user. The program will return to the page, a bullet point list of numbers starting from 1 to the number indicated by the user. For every multiple of 3 in that list, "Ping" will be displayed instead of the number. If the number is a multiple of 5, "Pong" will be displayed. If the number is a multiple of both 3 and 5, "Ping-Pong" will be displayed.
 
 ### Specs
-_{| Example number  | return      |
+| Example number  | return      |
   | ------------- |:-------------:|
   |2              | 2             |
   |3              | Ping!         |   
@@ -17,26 +17,34 @@ _{| Example number  | return      |
   |15             | Ping-Pong!    |
 
 -take user input and save it
+
 -use function return user entry
+
 -print to screen user entry
+
 -create a for loop to stop at user entry
+
 -print to screen all iterations of loop
+
 -check for divisibility by 15, if true change to ping-pong
+
 -check for divisibility by 5, if true change to pong
+
 -check for divisibility by 3, if true change to ping
+
 -remove previous output when resubmitted
-}_
+
 
 
 ## Known Bugs
 
-_{No know bugs. }_
+No know bugs.
 
 
 ## Technologies Used
 
-_{HTML, CSS, JavaScript, Bootstrap, jquery}_
+HTML, CSS, JavaScript, Bootstrap, jquery
 
 
 
-Copyright (c) 2017 **_{Guy Anderson}_**
+Copyright (c) 2017 **_Guy Anderson_**
